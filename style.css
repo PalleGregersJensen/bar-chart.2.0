@@ -1,3 +1,16 @@
-body {
-    background-color: red;
+/* body { */
+    /* background-color: red; */
+/* } */
+
+#barChart {
+display: grid;
+grid-template-colums: (repeat(40, 1fr));
+gap: 2px;
+}
+
+.bar {
+    background-color: yellow; 
+    outline: 1px solid black;
+
+    height: 100px;
 }
