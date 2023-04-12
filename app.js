@@ -24,3 +24,12 @@ function displayAllBars() {
     firstBar.style.height = `${h}px`;
   }
 }
+
+function update() {
+    updateData();
+    displayAllBars();
+}
+
+function updateData() {
+    
+}
